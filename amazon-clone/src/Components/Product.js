@@ -32,7 +32,7 @@ const Product = ({ id, title, price, rating, image }) => {
 						))}
 				</div>
 			</div>
-			<img src={image} alt="image" />
+			<img src={image} alt="" />
 			<button onClick={addToBasket}>Add to Basket</button>
 		</div>
 	);
